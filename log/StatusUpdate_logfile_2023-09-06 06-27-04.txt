@@ -1,0 +1,25 @@
+INFO:root:Start get_toluna_dataset()
+INFO:paramiko.transport:Connected (version 2.0, client 8.1.0.0_openssh)
+INFO:paramiko.transport:Auth banner: b'GfK Group FTP Service'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Connected.
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+INFO:root:[DOWNLOADED]: D:/05. Data Production/SPH/IncentiveEmailAutomation/TolunaPartialStatus/data/Decipher_Online_Status.xlsx
+INFO:root:[DOWNLOADED]: D:/05. Data Production/SPH/IncentiveEmailAutomation/TolunaPartialStatus/data/Decipher_Offline_Status.xlsx
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+INFO:root:Completed get_toluna_dataset().
+INFO:root:Start create_dataframe().
+INFO:root:Will exclude autorecover records that are not in the invited IDs for this wave
+INFO:root:Excluded
+INFO:root:Combined toluna dataframe created.
+INFO:root:Final dataframe created successfully.
+INFO:root:Completed create_dataframes().
+INFO:root:Start insert_update_status().
+INFO:root:Connected to SGTAMProd.
+INFO:root:Completed insert_update_status().
+INFO:root:Start archive_data_files().
+INFO:root:Completed archive_data_files().
+INFO:root:Task Completed!
+INFO:root:Sending email.
+INFO:root:Email sent.
+INFO:root:Finally clause completed.

@@ -1,0 +1,38 @@
+INFO:root:Start of download data files from SFTP code block.
+INFO:root:Establishing connection to SFTP
+INFO:paramiko.transport:Connected (version 2.0, client 8.1.0.0_openssh)
+INFO:paramiko.transport:Auth banner: b'GfK Group FTP Service'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Connected to SFTP.
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+INFO:root:Go to /TAM_OGS/Toluna/ in SFTP.
+INFO:root:D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Online_Data.xlsx is downloaded.
+INFO:root:D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Offline_Data.xlsx is downloaded.
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+INFO:root:End of Download data files from SFTP code block.
+INFO:root:Start of create dataframes to fix the data code block.
+INFO:root:Creating required dataframes.
+INFO:root:Copy values from ID column to id_temp column if there is missing value.
+INFO:root:Inner join dataset df with prepopulated df to get required columns.
+INFO:root:Rearrange the columns of the final dfs.
+INFO:root:Export final results dfs as excel file to be uploaded to SFTP.
+INFO:root:End of create dataframes to fix the data code block.
+INFO:root:Start of upload data files back to SFTP.
+INFO:paramiko.transport:Connected (version 2.0, client 8.1.0.0_openssh)
+INFO:paramiko.transport:Auth banner: b'GfK Group FTP Service'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Connected to SFTP.
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+INFO:root:Go to /TAM_OGS/Toluna/.
+INFO:root:Renamed D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Online_Data.xlsx to D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Online_Data20230906.xlsx
+INFO:root:Uploaded D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Online_Data20230906.xlsx to SFTP.
+INFO:root:Removed D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Online_Data20230906.xlsx from placeholder folder.
+INFO:root:Renamed D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Offline_Data.xlsx to D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Offline_Data20230906.xlsx
+INFO:root:Uploaded D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Offline_Data20230906.xlsx to SFTP.
+INFO:root:Removed D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_datafiles_for_fix_missing_values\Decipher_Offline_Data20230906.xlsx from placeholder folder.
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+INFO:root:End of upload data files back to SFTP.
+INFO:root:Process completed.
+INFO:root:Sending email.
+INFO:root:Email sent.
+INFO:root:This is finally clause, end of process.

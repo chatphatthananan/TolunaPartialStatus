@@ -1,0 +1,1 @@
+INFO:root:Connected to SGTAMProd.

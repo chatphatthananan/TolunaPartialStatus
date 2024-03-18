@@ -1,0 +1,29 @@
+INFO:root:Clicked 'Excel' option to download the offline data file.
+INFO:root:Clicked 'Excel' option to download the online data file.
+INFO:root:End of chrome automation code block, Chrome driver closed.
+INFO:root:Go to download folder in KC1.
+INFO:root:2625812w12024offline.zip moved to placeholder_downloaded_toluna_dataset_files.
+INFO:root:2625812w12024online.zip moved to placeholder_downloaded_toluna_dataset_files.
+INFO:root:Go to place holder folder which contains the downloaded dataset files.
+INFO:root:Unzipped offline dataset zip file and renamed it.
+INFO:root:Unzipped online dataset zip file and renamed it.
+INFO:root:End of unzip code block.
+INFO:paramiko.transport:Connected (version 2.0, client 8.1.0.0_openssh)
+INFO:paramiko.transport:Auth banner: b'GfK Group FTP Service'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Connected to SFTP.
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+INFO:root:Uploaded offline dataset file to SFTP.
+INFO:root:Uploaded online dataset file to SFTP.
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+INFO:root:SFTP session and connection closed.
+INFO:root:End of sftp code block
+INFO:root:D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_toluna_dataset_files\2625812w12024offline.zip has been deleted.
+INFO:root:D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_toluna_dataset_files\2625812w12024online.zip has been deleted.
+INFO:root:D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_toluna_dataset_files\Decipher_Offline_Data20240301.xlsx has been deleted.
+INFO:root:D:\05. Data Production\SPH\IncentiveEmailAutomation\TolunaPartialStatus\data\placeholder_downloaded_toluna_dataset_files\Decipher_Online_Data20240301.xlsx has been deleted.
+INFO:root:End of File Removing Block.
+INFO:root:Process completed.
+INFO:root:Sending email.
+INFO:root:Email sent.
+INFO:root:This is finally clause, end of process.
